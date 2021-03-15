@@ -2,7 +2,7 @@ import random, sqlite3
 
 conn = sqlite3.connect('card.s3db')
 cur = conn.cursor()
-cur.execute("DROP TABLE IF EXISTS card;")
+
 cur.execute(
     "CREATE TABLE IF NOT EXISTS card (id INTEGER PRIMARY KEY, number TEXT, pin TEXT, balance INTEGER DEFAULT 0);")
 
