@@ -1,4 +1,4 @@
-# sqllite3
+# SQLite3
 
 This is a command line app that uses SQLite3 for the backend.
 
